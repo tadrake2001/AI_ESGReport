@@ -1,0 +1,14 @@
+numpy
+transformers
+datasets
+peft
+trl
+scikit-learn
+pandas
+PyMuPDF
+streamlit
+requests
+accelerate
+huggingface-hub
+einops
+tiktoken

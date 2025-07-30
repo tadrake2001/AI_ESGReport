@@ -1,0 +1,989 @@
+[
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành dược phẩm. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Lượng tiêu thụ điện bình quân giảm còn 243 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Chúng tôi yêu cầu tất cả nhà cung cấp tại khu vực miền Tây ký cam kết về đạo đức kinh doanh.",
+      "100% hợp đồng có điều khoản bắt buộc tuân thủ các tiêu chuẩn môi trường nội bộ.",
+      "Không có vi phạm nào từng xảy ra trong hệ thống chuỗi cung ứng của chúng tôi.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Tây đạt 72%.",
+      "Các chính sách về chống rửa tiền được cập nhật theo quy định tại thị trường miền Bắc.",
+      "Chúng tôi đã hợp tác với bệnh viện địa phương để cung cấp khám sức khỏe định kỳ cho hơn 40 công nhân.",
+      "Tại vùng Tây Nguyên, doanh nghiệp đầu tư 85 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Cơ sở sản xuất đã thay thế 100% nhiên liệu hóa thạch bằng năng lượng sinh khối từ năm 2021.",
+      "Dự án nông nghiệp hữu cơ giúp giảm 93% lượng thuốc bảo vệ thực vật ra môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Không có vi phạm nào từng xảy ra trong hệ thống chuỗi cung ứng của chúng tôi.",
+          "reason": "Sử dụng từ như 'luôn', 'tuyệt đối', 'không bao giờ' là dấu hiệu phóng đại."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành tài chính. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tại vùng Tây Nguyên, doanh nghiệp đầu tư 8 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Từ năm 2024, công ty áp dụng hệ thống đánh giá rủi ro ESG định kỳ theo quý.",
+      "Chúng tôi đã hợp tác với bệnh viện địa phương để cung cấp khám sức khỏe định kỳ cho hơn 50 công nhân.",
+      "Chúng tôi đã hợp tác với bệnh viện địa phương để cung cấp khám sức khỏe định kỳ cho hơn 29 công nhân.",
+      "Các chính sách về chống rửa tiền được cập nhật theo quy định tại thị trường Tây Nguyên.",
+      "Chúng tôi cam kết đảm bảo an toàn tuyệt đối cho toàn bộ người lao động.",
+      "Chúng tôi luôn đi đầu trong mọi tiêu chuẩn ESG trên thị trường.",
+      "Chúng tôi là công ty tiên phong và bền vững nhất trong ngành tài chính.",
+      "Chương trình ‘An toàn cho mọi người’ đã giảm 78% tai nạn lao động tại các công trường.",
+      "Tổ chức 13 buổi đối thoại cộng đồng tại huyện Quảng Ngãi trong năm 2020."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi là công ty tiên phong và bền vững nhất trong ngành tài chính.",
+          "reason": "Không có bằng chứng hỗ trợ cho tuyên bố mang tính chủ quan và toàn diện."
+        },
+        {
+          "sentence": "Chúng tôi luôn đi đầu trong mọi tiêu chuẩn ESG trên thị trường.",
+          "reason": "Không có bằng chứng hỗ trợ cho tuyên bố mang tính chủ quan và toàn diện."
+        },
+        {
+          "sentence": "Chúng tôi cam kết đảm bảo an toàn tuyệt đối cho toàn bộ người lao động.",
+          "reason": "Sử dụng từ như 'luôn', 'tuyệt đối', 'không bao giờ' là dấu hiệu phóng đại."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành dệt may. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Đồng Nai, giúp tái sử dụng 54% lượng nước thải.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Cần Thơ, giúp tái sử dụng 95% lượng nước thải.",
+      "Chúng tôi đã hợp tác với bệnh viện địa phương để cung cấp khám sức khỏe định kỳ cho hơn 23 công nhân.",
+      "Nhân viên ngành dệt may tại Hải Phòng được hỗ trợ nhà ở với kinh phí lên đến 16 tỷ VNĐ.",
+      "Dự án nông nghiệp hữu cơ giúp giảm 22% lượng thuốc bảo vệ thực vật ra môi trường.",
+      "Nhà máy tại Quảng Ngãi đã giảm lượng phát thải CO₂ xuống còn 1249 tấn/năm.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Quảng Ngãi, giúp tái sử dụng 57% lượng nước thải.",
+      "Tổ chức 46 buổi đối thoại cộng đồng tại huyện Đồng Nai trong năm 2021.",
+      "Tại vùng miền Trung, doanh nghiệp đầu tư 56 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Tổ chức 46 buổi đối thoại cộng đồng tại huyện Cần Thơ trong năm 2023."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành sản xuất ô tô. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tại vùng Tây Nguyên, doanh nghiệp đầu tư 52 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Ban giám đốc tại chi nhánh miền Bắc có 37% là thành viên độc lập.",
+      "Từ năm 2021, công ty áp dụng hệ thống đánh giá rủi ro ESG định kỳ theo quý.",
+      "Từ năm 2023, công ty áp dụng hệ thống đánh giá rủi ro ESG định kỳ theo quý.",
+      "Dự án nông nghiệp hữu cơ giúp giảm 48% lượng thuốc bảo vệ thực vật ra môi trường.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Cần Thơ, giúp tái sử dụng 52% lượng nước thải.",
+      "Dự án nông nghiệp hữu cơ giúp giảm 74% lượng thuốc bảo vệ thực vật ra môi trường.",
+      "Các chính sách về chống rửa tiền được cập nhật theo quy định tại thị trường miền Trung.",
+      "Công ty luôn đạt được sự tin tưởng tuyệt đối từ cộng đồng và đối tác.",
+      "Chúng tôi yêu cầu tất cả nhà cung cấp tại khu vực TP.HCM ký cam kết về đạo đức kinh doanh."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Công ty luôn đạt được sự tin tưởng tuyệt đối từ cộng đồng và đối tác.",
+          "reason": "Câu khẳng định tuyệt đối mà không có dữ liệu cụ thể để kiểm chứng."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành dệt may. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Lượng tiêu thụ điện bình quân giảm còn 294 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Tại vùng Tây Nguyên, doanh nghiệp đầu tư 76 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Lượng tiêu thụ điện bình quân giảm còn 228 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Tại vùng miền Tây, doanh nghiệp đầu tư 67 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Chúng tôi là công ty tiên phong và bền vững nhất trong ngành dệt may.",
+      "Nhân viên ngành dệt may tại Đồng Nai được hỗ trợ nhà ở với kinh phí lên đến 55 tỷ VNĐ.",
+      "Tổ chức 15 buổi đối thoại cộng đồng tại huyện Đồng Nai trong năm 2021.",
+      "Lượng tiêu thụ điện bình quân giảm còn 229 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Không có doanh nghiệp nào đạt được thành tựu ESG vượt trội như chúng tôi.",
+      "Chúng tôi đã hợp tác với bệnh viện địa phương để cung cấp khám sức khỏe định kỳ cho hơn 35 công nhân."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi là công ty tiên phong và bền vững nhất trong ngành dệt may.",
+          "reason": "Câu khẳng định tuyệt đối mà không có dữ liệu cụ thể để kiểm chứng."
+        },
+        {
+          "sentence": "Không có doanh nghiệp nào đạt được thành tựu ESG vượt trội như chúng tôi.",
+          "reason": "Sử dụng từ như 'luôn', 'tuyệt đối', 'không bao giờ' là dấu hiệu phóng đại."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành dược phẩm. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Đồng Nai, giúp tái sử dụng 39% lượng nước thải.",
+      "Lượng tiêu thụ điện bình quân giảm còn 203 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Ban giám đốc tại chi nhánh miền Bắc có 60% là thành viên độc lập.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực TP.HCM đạt 33%.",
+      "Chúng tôi là công ty tiên phong và bền vững nhất trong ngành dược phẩm.",
+      "Cơ sở sản xuất đã thay thế 100% nhiên liệu hóa thạch bằng năng lượng sinh khối từ năm 2022.",
+      "Tại vùng Tây Nguyên, doanh nghiệp đầu tư 32 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Bình Dương, giúp tái sử dụng 73% lượng nước thải.",
+      "Chúng tôi yêu cầu tất cả nhà cung cấp tại khu vực miền Bắc ký cam kết về đạo đức kinh doanh.",
+      "Chương trình ‘An toàn cho mọi người’ đã giảm 55% tai nạn lao động tại các công trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi là công ty tiên phong và bền vững nhất trong ngành dược phẩm.",
+          "reason": "Sử dụng từ như 'luôn', 'tuyệt đối', 'không bao giờ' là dấu hiệu phóng đại."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành tài chính. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Từ năm 2020, công ty áp dụng hệ thống đánh giá rủi ro ESG định kỳ theo quý.",
+      "Chúng tôi yêu cầu tất cả nhà cung cấp tại khu vực miền Trung ký cam kết về đạo đức kinh doanh.",
+      "Ban giám đốc tại chi nhánh miền Trung có 61% là thành viên độc lập.",
+      "Lượng tiêu thụ điện bình quân giảm còn 213 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Nhân viên ngành dệt may tại Bình Dương được hỗ trợ nhà ở với kinh phí lên đến 56 tỷ VNĐ.",
+      "Ban giám đốc tại chi nhánh TP.HCM có 76% là thành viên độc lập.",
+      "Lượng tiêu thụ điện bình quân giảm còn 266 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Chương trình ‘An toàn cho mọi người’ đã giảm 48% tai nạn lao động tại các công trường.",
+      "Lượng tiêu thụ điện bình quân giảm còn 231 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Tổ chức 6 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2021."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành dệt may. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Nhà máy tại Hải Phòng đã giảm lượng phát thải CO₂ xuống còn 5543 tấn/năm.",
+      "Các chính sách về chống rửa tiền được cập nhật theo quy định tại thị trường miền Tây.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực Tây Nguyên đạt 87%.",
+      "Chương trình ‘An toàn cho mọi người’ đã giảm 46% tai nạn lao động tại các công trường.",
+      "Ban giám đốc tại chi nhánh Tây Nguyên có 84% là thành viên độc lập.",
+      "Tổ chức 14 buổi đối thoại cộng đồng tại huyện Hải Phòng trong năm 2023.",
+      "Tổ chức 25 buổi đối thoại cộng đồng tại huyện Quảng Ngãi trong năm 2023.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực TP.HCM đạt 28%.",
+      "Nhân viên ngành dệt may tại Hải Phòng được hỗ trợ nhà ở với kinh phí lên đến 52 tỷ VNĐ.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực TP.HCM đạt 82%."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành dược phẩm. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi đã hợp tác với bệnh viện địa phương để cung cấp khám sức khỏe định kỳ cho hơn 3 công nhân.",
+      "Dự án nông nghiệp hữu cơ giúp giảm 95% lượng thuốc bảo vệ thực vật ra môi trường.",
+      "Ban giám đốc tại chi nhánh miền Trung có 60% là thành viên độc lập.",
+      "Nhà máy tại Cần Thơ đã giảm lượng phát thải CO₂ xuống còn 2558 tấn/năm.",
+      "Chúng tôi đã hợp tác với bệnh viện địa phương để cung cấp khám sức khỏe định kỳ cho hơn 41 công nhân.",
+      "Tổ chức 20 buổi đối thoại cộng đồng tại huyện Đồng Nai trong năm 2020.",
+      "Chúng tôi đã hợp tác với bệnh viện địa phương để cung cấp khám sức khỏe định kỳ cho hơn 7 công nhân.",
+      "Tổ chức 29 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2022.",
+      "Lượng tiêu thụ điện bình quân giảm còn 339 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Tổ chức 44 buổi đối thoại cộng đồng tại huyện Cần Thơ trong năm 2024."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành thực phẩm. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tại vùng miền Tây, doanh nghiệp đầu tư 84 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Đồng Nai, giúp tái sử dụng 31% lượng nước thải.",
+      "Tổ chức 38 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2023.",
+      "Chúng tôi đã hợp tác với bệnh viện địa phương để cung cấp khám sức khỏe định kỳ cho hơn 12 công nhân.",
+      "Tổ chức 23 buổi đối thoại cộng đồng tại huyện Quảng Ngãi trong năm 2020.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Bắc đạt 74%.",
+      "Chúng tôi đã hợp tác với bệnh viện địa phương để cung cấp khám sức khỏe định kỳ cho hơn 28 công nhân.",
+      "Chúng tôi đã hợp tác với bệnh viện địa phương để cung cấp khám sức khỏe định kỳ cho hơn 25 công nhân.",
+      "Tại vùng miền Trung, doanh nghiệp đầu tư 5 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Lượng tiêu thụ điện bình quân giảm còn 275 kWh/người/tháng trong toàn hệ thống logistics."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành nông nghiệp. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Nhân viên ngành dệt may tại Đồng Nai được hỗ trợ nhà ở với kinh phí lên đến 42 tỷ VNĐ.",
+      "Nhà máy tại Bình Dương đã giảm lượng phát thải CO₂ xuống còn 8630 tấn/năm.",
+      "Lượng tiêu thụ điện bình quân giảm còn 194 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Trung đạt 46%.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Bình Dương, giúp tái sử dụng 51% lượng nước thải.",
+      "Chương trình ‘An toàn cho mọi người’ đã giảm 82% tai nạn lao động tại các công trường.",
+      "Tổ chức 32 buổi đối thoại cộng đồng tại huyện Quảng Ngãi trong năm 2023.",
+      "Tại vùng miền Bắc, doanh nghiệp đầu tư 37 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Dự án nông nghiệp hữu cơ giúp giảm 17% lượng thuốc bảo vệ thực vật ra môi trường.",
+      "Tại vùng miền Bắc, doanh nghiệp đầu tư 87 tỷ VNĐ vào hệ thống điện mặt trời áp mái."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành nông nghiệp. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tại vùng miền Tây, doanh nghiệp đầu tư 11 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Ban giám đốc tại chi nhánh miền Tây có 63% là thành viên độc lập.",
+      "Lượng tiêu thụ điện bình quân giảm còn 310 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Tổ chức 22 buổi đối thoại cộng đồng tại huyện Đồng Nai trong năm 2023.",
+      "Dự án nông nghiệp hữu cơ giúp giảm 34% lượng thuốc bảo vệ thực vật ra môi trường.",
+      "Tổ chức 36 buổi đối thoại cộng đồng tại huyện Cần Thơ trong năm 2020.",
+      "Nhân viên ngành dệt may tại Đồng Nai được hỗ trợ nhà ở với kinh phí lên đến 65 tỷ VNĐ.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Trung đạt 83%.",
+      "Tổ chức 45 buổi đối thoại cộng đồng tại huyện Quảng Ngãi trong năm 2024.",
+      "Chương trình ‘An toàn cho mọi người’ đã giảm 63% tai nạn lao động tại các công trường."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành sản xuất ô tô. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tổ chức 34 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2024.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực TP.HCM đạt 67%.",
+      "Chương trình ‘An toàn cho mọi người’ đã giảm 57% tai nạn lao động tại các công trường.",
+      "Tổ chức 46 buổi đối thoại cộng đồng tại huyện Cần Thơ trong năm 2022.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Trung đạt 41%.",
+      "Nhân viên ngành dệt may tại Cần Thơ được hỗ trợ nhà ở với kinh phí lên đến 36 tỷ VNĐ.",
+      "Tổ chức 20 buổi đối thoại cộng đồng tại huyện Hải Phòng trong năm 2023.",
+      "Tại vùng TP.HCM, doanh nghiệp đầu tư 40 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực TP.HCM đạt 31%.",
+      "Chúng tôi đã hợp tác với bệnh viện địa phương để cung cấp khám sức khỏe định kỳ cho hơn 24 công nhân."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành viễn thông. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Trung đạt 72%.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Cần Thơ, giúp tái sử dụng 42% lượng nước thải.",
+      "Nhà máy tại Đồng Nai đã giảm lượng phát thải CO₂ xuống còn 2895 tấn/năm.",
+      "Nhân viên ngành dệt may tại Đồng Nai được hỗ trợ nhà ở với kinh phí lên đến 7 tỷ VNĐ.",
+      "Dự án nông nghiệp hữu cơ giúp giảm 77% lượng thuốc bảo vệ thực vật ra môi trường.",
+      "Chúng tôi đã hợp tác với bệnh viện địa phương để cung cấp khám sức khỏe định kỳ cho hơn 11 công nhân.",
+      "Chúng tôi đã hợp tác với bệnh viện địa phương để cung cấp khám sức khỏe định kỳ cho hơn 22 công nhân.",
+      "Nhân viên ngành dệt may tại Bình Dương được hỗ trợ nhà ở với kinh phí lên đến 37 tỷ VNĐ.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Tây đạt 50%.",
+      "Tại vùng Tây Nguyên, doanh nghiệp đầu tư 59 tỷ VNĐ vào hệ thống điện mặt trời áp mái."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành sản xuất ô tô. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tổ chức 49 buổi đối thoại cộng đồng tại huyện Hải Phòng trong năm 2021.",
+      "Tổ chức 20 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2023.",
+      "Dự án nông nghiệp hữu cơ giúp giảm 19% lượng thuốc bảo vệ thực vật ra môi trường.",
+      "Chương trình ‘An toàn cho mọi người’ đã giảm 83% tai nạn lao động tại các công trường.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Cần Thơ, giúp tái sử dụng 74% lượng nước thải.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực TP.HCM đạt 37%.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Tây đạt 82%.",
+      "Chương trình ‘An toàn cho mọi người’ đã giảm 87% tai nạn lao động tại các công trường.",
+      "Tổ chức 6 buổi đối thoại cộng đồng tại huyện Đồng Nai trong năm 2021.",
+      "Nhà máy tại Bình Dương đã giảm lượng phát thải CO₂ xuống còn 1668 tấn/năm."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành viễn thông. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Nhân viên ngành dệt may tại Đồng Nai được hỗ trợ nhà ở với kinh phí lên đến 48 tỷ VNĐ.",
+      "Nhà máy tại Đồng Nai đã giảm lượng phát thải CO₂ xuống còn 7517 tấn/năm.",
+      "Chương trình ‘An toàn cho mọi người’ đã giảm 43% tai nạn lao động tại các công trường.",
+      "Tổ chức 14 buổi đối thoại cộng đồng tại huyện Quảng Ngãi trong năm 2024.",
+      "Chúng tôi đã hợp tác với bệnh viện địa phương để cung cấp khám sức khỏe định kỳ cho hơn 4 công nhân.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực TP.HCM đạt 57%.",
+      "Chương trình ‘An toàn cho mọi người’ đã giảm 23% tai nạn lao động tại các công trường.",
+      "Lượng tiêu thụ điện bình quân giảm còn 125 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Tại vùng miền Tây, doanh nghiệp đầu tư 40 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Tổ chức 14 buổi đối thoại cộng đồng tại huyện Đồng Nai trong năm 2020."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành dược phẩm. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Nhân viên ngành dệt may tại Hải Phòng được hỗ trợ nhà ở với kinh phí lên đến 8 tỷ VNĐ.",
+      "Nhân viên ngành dệt may tại Đồng Nai được hỗ trợ nhà ở với kinh phí lên đến 58 tỷ VNĐ.",
+      "Tại vùng miền Bắc, doanh nghiệp đầu tư 76 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Bình Dương, giúp tái sử dụng 29% lượng nước thải.",
+      "Ban giám đốc tại chi nhánh Tây Nguyên có 26% là thành viên độc lập.",
+      "Tại vùng TP.HCM, doanh nghiệp đầu tư 96 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Dự án nông nghiệp hữu cơ giúp giảm 31% lượng thuốc bảo vệ thực vật ra môi trường.",
+      "Nhà máy tại Đồng Nai đã giảm lượng phát thải CO₂ xuống còn 4772 tấn/năm.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực TP.HCM đạt 38%.",
+      "Lượng tiêu thụ điện bình quân giảm còn 306 kWh/người/tháng trong toàn hệ thống logistics."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành sản xuất ô tô. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tổ chức 30 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2024.",
+      "Lượng tiêu thụ điện bình quân giảm còn 235 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Trung đạt 50%.",
+      "Ban giám đốc tại chi nhánh TP.HCM có 77% là thành viên độc lập.",
+      "Tổ chức 15 buổi đối thoại cộng đồng tại huyện Quảng Ngãi trong năm 2024.",
+      "Ban giám đốc tại chi nhánh Tây Nguyên có 17% là thành viên độc lập.",
+      "Tại vùng Tây Nguyên, doanh nghiệp đầu tư 94 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Tổ chức 30 buổi đối thoại cộng đồng tại huyện Đồng Nai trong năm 2024.",
+      "Lượng tiêu thụ điện bình quân giảm còn 255 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Tổ chức 42 buổi đối thoại cộng đồng tại huyện Cần Thơ trong năm 2023."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành năng lượng. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tổ chức 46 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2024.",
+      "Nhà máy tại Đồng Nai đã giảm lượng phát thải CO₂ xuống còn 8569 tấn/năm.",
+      "Chương trình ‘An toàn cho mọi người’ đã giảm 92% tai nạn lao động tại các công trường.",
+      "Tại vùng TP.HCM, doanh nghiệp đầu tư 31 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực TP.HCM đạt 36%.",
+      "Chúng tôi đã hợp tác với bệnh viện địa phương để cung cấp khám sức khỏe định kỳ cho hơn 43 công nhân.",
+      "Nhà máy tại Hải Phòng đã giảm lượng phát thải CO₂ xuống còn 2524 tấn/năm.",
+      "Ban giám đốc tại chi nhánh miền Tây có 26% là thành viên độc lập.",
+      "Tổ chức 21 buổi đối thoại cộng đồng tại huyện Quảng Ngãi trong năm 2020.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Trung đạt 64%."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành nông nghiệp. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Bắc đạt 30%.",
+      "Ban giám đốc tại chi nhánh miền Trung có 71% là thành viên độc lập.",
+      "Tại vùng TP.HCM, doanh nghiệp đầu tư 58 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Dự án nông nghiệp hữu cơ giúp giảm 55% lượng thuốc bảo vệ thực vật ra môi trường.",
+      "Nhà máy tại Cần Thơ đã giảm lượng phát thải CO₂ xuống còn 4942 tấn/năm.",
+      "Tại vùng TP.HCM, doanh nghiệp đầu tư 47 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Cần Thơ, giúp tái sử dụng 27% lượng nước thải.",
+      "Tại vùng miền Bắc, doanh nghiệp đầu tư 31 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Nhà máy tại Quảng Ngãi đã giảm lượng phát thải CO₂ xuống còn 3499 tấn/năm.",
+      "Ban giám đốc tại chi nhánh Tây Nguyên có 30% là thành viên độc lập."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành vận tải. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tại vùng TP.HCM, doanh nghiệp đầu tư 61 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Tây đạt 32%.",
+      "Tại vùng miền Tây, doanh nghiệp đầu tư 42 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Nhân viên ngành dệt may tại Bình Dương được hỗ trợ nhà ở với kinh phí lên đến 24 tỷ VNĐ.",
+      "Tổ chức 28 buổi đối thoại cộng đồng tại huyện Đồng Nai trong năm 2021.",
+      "Nhà máy tại Cần Thơ đã giảm lượng phát thải CO₂ xuống còn 2974 tấn/năm.",
+      "Tổ chức 10 buổi đối thoại cộng đồng tại huyện Quảng Ngãi trong năm 2021.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Đồng Nai, giúp tái sử dụng 67% lượng nước thải.",
+      "Nhà máy tại Cần Thơ đã giảm lượng phát thải CO₂ xuống còn 3575 tấn/năm.",
+      "Nhà máy tại Quảng Ngãi đã giảm lượng phát thải CO₂ xuống còn 8135 tấn/năm."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành thực phẩm. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Nhà máy tại Cần Thơ đã giảm lượng phát thải CO₂ xuống còn 9603 tấn/năm.",
+      "Dự án nông nghiệp hữu cơ giúp giảm 32% lượng thuốc bảo vệ thực vật ra môi trường.",
+      "Nhân viên ngành dệt may tại Hải Phòng được hỗ trợ nhà ở với kinh phí lên đến 15 tỷ VNĐ.",
+      "Chương trình ‘An toàn cho mọi người’ đã giảm 59% tai nạn lao động tại các công trường.",
+      "Dự án nông nghiệp hữu cơ giúp giảm 29% lượng thuốc bảo vệ thực vật ra môi trường.",
+      "Tổ chức 21 buổi đối thoại cộng đồng tại huyện Hải Phòng trong năm 2021.",
+      "Nhà máy tại Cần Thơ đã giảm lượng phát thải CO₂ xuống còn 1333 tấn/năm.",
+      "Nhà máy tại Bình Dương đã giảm lượng phát thải CO₂ xuống còn 9860 tấn/năm.",
+      "Tổ chức 22 buổi đối thoại cộng đồng tại huyện Quảng Ngãi trong năm 2022.",
+      "Nhà máy tại Cần Thơ đã giảm lượng phát thải CO₂ xuống còn 9676 tấn/năm."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành sản xuất ô tô. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tổ chức 43 buổi đối thoại cộng đồng tại huyện Đồng Nai trong năm 2024.",
+      "Tổ chức 18 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2022.",
+      "Lượng tiêu thụ điện bình quân giảm còn 192 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Ban giám đốc tại chi nhánh miền Bắc có 59% là thành viên độc lập.",
+      "Lượng tiêu thụ điện bình quân giảm còn 333 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Tại vùng Tây Nguyên, doanh nghiệp đầu tư 12 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Tổ chức 15 buổi đối thoại cộng đồng tại huyện Quảng Ngãi trong năm 2022.",
+      "Nhân viên ngành dệt may tại Hải Phòng được hỗ trợ nhà ở với kinh phí lên đến 23 tỷ VNĐ.",
+      "Tổ chức 33 buổi đối thoại cộng đồng tại huyện Hải Phòng trong năm 2024.",
+      "Tổ chức 44 buổi đối thoại cộng đồng tại huyện Quảng Ngãi trong năm 2022."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành vận tải. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Ban giám đốc tại chi nhánh miền Trung có 85% là thành viên độc lập.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Quảng Ngãi, giúp tái sử dụng 59% lượng nước thải.",
+      "Ban giám đốc tại chi nhánh TP.HCM có 50% là thành viên độc lập.",
+      "Tại vùng Tây Nguyên, doanh nghiệp đầu tư 91 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Đồng Nai, giúp tái sử dụng 82% lượng nước thải.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Cần Thơ, giúp tái sử dụng 51% lượng nước thải.",
+      "Tổ chức 11 buổi đối thoại cộng đồng tại huyện Hải Phòng trong năm 2022.",
+      "Tại vùng TP.HCM, doanh nghiệp đầu tư 17 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Dự án nông nghiệp hữu cơ giúp giảm 76% lượng thuốc bảo vệ thực vật ra môi trường.",
+      "Nhà máy tại Đồng Nai đã giảm lượng phát thải CO₂ xuống còn 6360 tấn/năm."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành vận tải. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực TP.HCM đạt 18%.",
+      "Ban giám đốc tại chi nhánh miền Bắc có 62% là thành viên độc lập.",
+      "Nhà máy tại Bình Dương đã giảm lượng phát thải CO₂ xuống còn 9028 tấn/năm.",
+      "Tổ chức 36 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2023.",
+      "Tại vùng Tây Nguyên, doanh nghiệp đầu tư 29 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Chúng tôi đã hợp tác với bệnh viện địa phương để cung cấp khám sức khỏe định kỳ cho hơn 15 công nhân.",
+      "Tại vùng miền Tây, doanh nghiệp đầu tư 19 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Bình Dương, giúp tái sử dụng 42% lượng nước thải.",
+      "Nhà máy tại Bình Dương đã giảm lượng phát thải CO₂ xuống còn 519 tấn/năm.",
+      "Tại vùng miền Tây, doanh nghiệp đầu tư 85 tỷ VNĐ vào hệ thống điện mặt trời áp mái."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành thực phẩm. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Lượng tiêu thụ điện bình quân giảm còn 272 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Nhà máy tại Cần Thơ đã giảm lượng phát thải CO₂ xuống còn 1481 tấn/năm.",
+      "Tổ chức 31 buổi đối thoại cộng đồng tại huyện Cần Thơ trong năm 2023.",
+      "Nhà máy tại Đồng Nai đã giảm lượng phát thải CO₂ xuống còn 3043 tấn/năm.",
+      "Nhân viên ngành dệt may tại Cần Thơ được hỗ trợ nhà ở với kinh phí lên đến 76 tỷ VNĐ.",
+      "Tổ chức 33 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2023.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Bình Dương, giúp tái sử dụng 33% lượng nước thải.",
+      "Tại vùng miền Tây, doanh nghiệp đầu tư 61 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Tổ chức 39 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2022.",
+      "Ban giám đốc tại chi nhánh TP.HCM có 67% là thành viên độc lập."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành viễn thông. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi đã hợp tác với bệnh viện địa phương để cung cấp khám sức khỏe định kỳ cho hơn 20 công nhân.",
+      "Tổ chức 48 buổi đối thoại cộng đồng tại huyện Quảng Ngãi trong năm 2024.",
+      "Lượng tiêu thụ điện bình quân giảm còn 246 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Hải Phòng, giúp tái sử dụng 90% lượng nước thải.",
+      "Tổ chức 12 buổi đối thoại cộng đồng tại huyện Đồng Nai trong năm 2024.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Bình Dương, giúp tái sử dụng 86% lượng nước thải.",
+      "Ban giám đốc tại chi nhánh TP.HCM có 25% là thành viên độc lập.",
+      "Nhân viên ngành dệt may tại Đồng Nai được hỗ trợ nhà ở với kinh phí lên đến 72 tỷ VNĐ.",
+      "Tổ chức 21 buổi đối thoại cộng đồng tại huyện Hải Phòng trong năm 2023.",
+      "Lượng tiêu thụ điện bình quân giảm còn 343 kWh/người/tháng trong toàn hệ thống logistics."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành nông nghiệp. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Ban giám đốc tại chi nhánh TP.HCM có 28% là thành viên độc lập.",
+      "Nhà máy tại Cần Thơ đã giảm lượng phát thải CO₂ xuống còn 565 tấn/năm.",
+      "Tổ chức 41 buổi đối thoại cộng đồng tại huyện Đồng Nai trong năm 2024.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Bắc đạt 53%.",
+      "Chương trình ‘An toàn cho mọi người’ đã giảm 61% tai nạn lao động tại các công trường.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Quảng Ngãi, giúp tái sử dụng 82% lượng nước thải.",
+      "Nhà máy tại Quảng Ngãi đã giảm lượng phát thải CO₂ xuống còn 3618 tấn/năm.",
+      "Lượng tiêu thụ điện bình quân giảm còn 256 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Tổ chức 43 buổi đối thoại cộng đồng tại huyện Đồng Nai trong năm 2022.",
+      "Ban giám đốc tại chi nhánh TP.HCM có 47% là thành viên độc lập."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành dệt may. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Dự án nông nghiệp hữu cơ giúp giảm 54% lượng thuốc bảo vệ thực vật ra môi trường.",
+      "Ban giám đốc tại chi nhánh TP.HCM có 51% là thành viên độc lập.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Bắc đạt 82%.",
+      "Nhà máy tại Hải Phòng đã giảm lượng phát thải CO₂ xuống còn 3917 tấn/năm.",
+      "Tổ chức 5 buổi đối thoại cộng đồng tại huyện Quảng Ngãi trong năm 2020.",
+      "Nhân viên ngành dệt may tại Cần Thơ được hỗ trợ nhà ở với kinh phí lên đến 10 tỷ VNĐ.",
+      "Tổ chức 42 buổi đối thoại cộng đồng tại huyện Hải Phòng trong năm 2021.",
+      "Tổ chức 10 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2021.",
+      "Nhà máy tại Cần Thơ đã giảm lượng phát thải CO₂ xuống còn 9677 tấn/năm.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Hải Phòng, giúp tái sử dụng 21% lượng nước thải."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành viễn thông. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tại vùng miền Bắc, doanh nghiệp đầu tư 5 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Tây đạt 20%.",
+      "Tổ chức 21 buổi đối thoại cộng đồng tại huyện Cần Thơ trong năm 2022.",
+      "Chương trình ‘An toàn cho mọi người’ đã giảm 22% tai nạn lao động tại các công trường.",
+      "Ban giám đốc tại chi nhánh miền Bắc có 26% là thành viên độc lập.",
+      "Tại vùng miền Trung, doanh nghiệp đầu tư 79 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Nhân viên ngành dệt may tại Quảng Ngãi được hỗ trợ nhà ở với kinh phí lên đến 52 tỷ VNĐ.",
+      "Lượng tiêu thụ điện bình quân giảm còn 180 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Nhân viên ngành dệt may tại Đồng Nai được hỗ trợ nhà ở với kinh phí lên đến 99 tỷ VNĐ.",
+      "Tổ chức 18 buổi đối thoại cộng đồng tại huyện Cần Thơ trong năm 2022."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành dược phẩm. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Nhà máy tại Đồng Nai đã giảm lượng phát thải CO₂ xuống còn 5936 tấn/năm.",
+      "Nhân viên ngành dệt may tại Quảng Ngãi được hỗ trợ nhà ở với kinh phí lên đến 8 tỷ VNĐ.",
+      "Ban giám đốc tại chi nhánh miền Tây có 19% là thành viên độc lập.",
+      "Nhân viên ngành dệt may tại Đồng Nai được hỗ trợ nhà ở với kinh phí lên đến 77 tỷ VNĐ.",
+      "Chương trình ‘An toàn cho mọi người’ đã giảm 58% tai nạn lao động tại các công trường.",
+      "Nhà máy tại Đồng Nai đã giảm lượng phát thải CO₂ xuống còn 1776 tấn/năm.",
+      "Tại vùng miền Bắc, doanh nghiệp đầu tư 32 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Lượng tiêu thụ điện bình quân giảm còn 337 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Ban giám đốc tại chi nhánh Tây Nguyên có 39% là thành viên độc lập.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Cần Thơ, giúp tái sử dụng 17% lượng nước thải."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành sản xuất ô tô. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Ban giám đốc tại chi nhánh Tây Nguyên có 19% là thành viên độc lập.",
+      "Lượng tiêu thụ điện bình quân giảm còn 196 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Tổ chức 2 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2021.",
+      "Nhân viên ngành dệt may tại Đồng Nai được hỗ trợ nhà ở với kinh phí lên đến 35 tỷ VNĐ.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Tây đạt 44%.",
+      "Ban giám đốc tại chi nhánh Tây Nguyên có 57% là thành viên độc lập.",
+      "Nhà máy tại Quảng Ngãi đã giảm lượng phát thải CO₂ xuống còn 5327 tấn/năm.",
+      "Ban giám đốc tại chi nhánh TP.HCM có 94% là thành viên độc lập.",
+      "Chúng tôi đã hợp tác với bệnh viện địa phương để cung cấp khám sức khỏe định kỳ cho hơn 33 công nhân.",
+      "Nhà máy tại Hải Phòng đã giảm lượng phát thải CO₂ xuống còn 297 tấn/năm."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành thực phẩm. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực TP.HCM đạt 42%.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực TP.HCM đạt 19%.",
+      "Tại vùng TP.HCM, doanh nghiệp đầu tư 74 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Tổ chức 32 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2022.",
+      "Nhân viên ngành dệt may tại Hải Phòng được hỗ trợ nhà ở với kinh phí lên đến 34 tỷ VNĐ.",
+      "Dự án nông nghiệp hữu cơ giúp giảm 62% lượng thuốc bảo vệ thực vật ra môi trường.",
+      "Chương trình ‘An toàn cho mọi người’ đã giảm 69% tai nạn lao động tại các công trường.",
+      "Nhân viên ngành dệt may tại Cần Thơ được hỗ trợ nhà ở với kinh phí lên đến 6 tỷ VNĐ.",
+      "Tổ chức 48 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2022.",
+      "Lượng tiêu thụ điện bình quân giảm còn 318 kWh/người/tháng trong toàn hệ thống logistics."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành viễn thông. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tổ chức 50 buổi đối thoại cộng đồng tại huyện Đồng Nai trong năm 2020.",
+      "Tổ chức 25 buổi đối thoại cộng đồng tại huyện Đồng Nai trong năm 2023.",
+      "Tổ chức 32 buổi đối thoại cộng đồng tại huyện Đồng Nai trong năm 2024.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Bắc đạt 70%.",
+      "Ban giám đốc tại chi nhánh miền Bắc có 91% là thành viên độc lập.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Hải Phòng, giúp tái sử dụng 41% lượng nước thải.",
+      "Nhà máy tại Bình Dương đã giảm lượng phát thải CO₂ xuống còn 8960 tấn/năm.",
+      "Tại vùng miền Trung, doanh nghiệp đầu tư 52 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Nhân viên ngành dệt may tại Quảng Ngãi được hỗ trợ nhà ở với kinh phí lên đến 78 tỷ VNĐ.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Bắc đạt 20%."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành bất động sản. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tổ chức 3 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2022.",
+      "Tổ chức 21 buổi đối thoại cộng đồng tại huyện Quảng Ngãi trong năm 2022.",
+      "Lượng tiêu thụ điện bình quân giảm còn 232 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Quảng Ngãi, giúp tái sử dụng 67% lượng nước thải.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Hải Phòng, giúp tái sử dụng 35% lượng nước thải.",
+      "Ban giám đốc tại chi nhánh TP.HCM có 53% là thành viên độc lập.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Quảng Ngãi, giúp tái sử dụng 32% lượng nước thải.",
+      "Nhà máy tại Hải Phòng đã giảm lượng phát thải CO₂ xuống còn 1453 tấn/năm.",
+      "Nhân viên ngành dệt may tại Hải Phòng được hỗ trợ nhà ở với kinh phí lên đến 56 tỷ VNĐ.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Hải Phòng, giúp tái sử dụng 74% lượng nước thải."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành năng lượng. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Ban giám đốc tại chi nhánh miền Tây có 51% là thành viên độc lập.",
+      "Ban giám đốc tại chi nhánh miền Tây có 44% là thành viên độc lập.",
+      "Ban giám đốc tại chi nhánh Tây Nguyên có 92% là thành viên độc lập.",
+      "Nhà máy tại Hải Phòng đã giảm lượng phát thải CO₂ xuống còn 1397 tấn/năm.",
+      "Tổ chức 50 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2024.",
+      "Ban giám đốc tại chi nhánh miền Tây có 41% là thành viên độc lập.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Bắc đạt 45%.",
+      "Lượng tiêu thụ điện bình quân giảm còn 247 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Tổ chức 10 buổi đối thoại cộng đồng tại huyện Quảng Ngãi trong năm 2020.",
+      "Nhà máy tại Đồng Nai đã giảm lượng phát thải CO₂ xuống còn 1982 tấn/năm."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành bất động sản. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Ban giám đốc tại chi nhánh miền Tây có 67% là thành viên độc lập.",
+      "Ban giám đốc tại chi nhánh miền Tây có 20% là thành viên độc lập.",
+      "Ban giám đốc tại chi nhánh TP.HCM có 58% là thành viên độc lập.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Tây đạt 81%.",
+      "Nhà máy tại Bình Dương đã giảm lượng phát thải CO₂ xuống còn 6869 tấn/năm.",
+      "Nhà máy tại Hải Phòng đã giảm lượng phát thải CO₂ xuống còn 6144 tấn/năm.",
+      "Ban giám đốc tại chi nhánh Tây Nguyên có 85% là thành viên độc lập.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Quảng Ngãi, giúp tái sử dụng 51% lượng nước thải.",
+      "Tại vùng miền Bắc, doanh nghiệp đầu tư 86 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Tổ chức 4 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2024."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành vận tải. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Quảng Ngãi, giúp tái sử dụng 73% lượng nước thải.",
+      "Tổ chức 4 buổi đối thoại cộng đồng tại huyện Quảng Ngãi trong năm 2020.",
+      "Nhà máy tại Hải Phòng đã giảm lượng phát thải CO₂ xuống còn 6793 tấn/năm.",
+      "Ban giám đốc tại chi nhánh miền Tây có 86% là thành viên độc lập.",
+      "Tổ chức 12 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2021.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Hải Phòng, giúp tái sử dụng 39% lượng nước thải.",
+      "Tổ chức 15 buổi đối thoại cộng đồng tại huyện Hải Phòng trong năm 2020.",
+      "Nhà máy tại Đồng Nai đã giảm lượng phát thải CO₂ xuống còn 9269 tấn/năm.",
+      "Tổ chức 41 buổi đối thoại cộng đồng tại huyện Cần Thơ trong năm 2020.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Bắc đạt 39%."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành tài chính. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Lượng tiêu thụ điện bình quân giảm còn 136 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Nhân viên ngành dệt may tại Cần Thơ được hỗ trợ nhà ở với kinh phí lên đến 79 tỷ VNĐ.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Tây đạt 52%.",
+      "Lượng tiêu thụ điện bình quân giảm còn 295 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Tổ chức 34 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2020.",
+      "Nhân viên ngành dệt may tại Bình Dương được hỗ trợ nhà ở với kinh phí lên đến 97 tỷ VNĐ.",
+      "Tại vùng Tây Nguyên, doanh nghiệp đầu tư 58 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Nhà máy tại Bình Dương đã giảm lượng phát thải CO₂ xuống còn 7325 tấn/năm.",
+      "Nhà máy tại Hải Phòng đã giảm lượng phát thải CO₂ xuống còn 6342 tấn/năm.",
+      "Nhân viên ngành dệt may tại Bình Dương được hỗ trợ nhà ở với kinh phí lên đến 45 tỷ VNĐ."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành bất động sản. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tại vùng miền Tây, doanh nghiệp đầu tư 76 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Bắc đạt 42%.",
+      "Ban giám đốc tại chi nhánh Tây Nguyên có 18% là thành viên độc lập.",
+      "Nhân viên ngành dệt may tại Bình Dương được hỗ trợ nhà ở với kinh phí lên đến 29 tỷ VNĐ.",
+      "Lượng tiêu thụ điện bình quân giảm còn 245 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Ban giám đốc tại chi nhánh miền Bắc có 49% là thành viên độc lập.",
+      "Tổ chức 22 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2024.",
+      "Nhân viên ngành dệt may tại Hải Phòng được hỗ trợ nhà ở với kinh phí lên đến 14 tỷ VNĐ.",
+      "Lượng tiêu thụ điện bình quân giảm còn 332 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Tổ chức 25 buổi đối thoại cộng đồng tại huyện Hải Phòng trong năm 2022."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành nông nghiệp. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Nhà máy tại Cần Thơ đã giảm lượng phát thải CO₂ xuống còn 900 tấn/năm.",
+      "Nhân viên ngành dệt may tại Quảng Ngãi được hỗ trợ nhà ở với kinh phí lên đến 5 tỷ VNĐ.",
+      "Ban giám đốc tại chi nhánh miền Bắc có 87% là thành viên độc lập.",
+      "Tại vùng Tây Nguyên, doanh nghiệp đầu tư 44 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Nhà máy tại Quảng Ngãi đã giảm lượng phát thải CO₂ xuống còn 4725 tấn/năm.",
+      "Nhà máy tại Đồng Nai đã giảm lượng phát thải CO₂ xuống còn 4618 tấn/năm.",
+      "Nhân viên ngành dệt may tại Cần Thơ được hỗ trợ nhà ở với kinh phí lên đến 26 tỷ VNĐ.",
+      "Chương trình ‘An toàn cho mọi người’ đã giảm 70% tai nạn lao động tại các công trường.",
+      "Tổ chức 29 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2024.",
+      "Tổ chức 24 buổi đối thoại cộng đồng tại huyện Cần Thơ trong năm 2020."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành viễn thông. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Nhân viên ngành dệt may tại Đồng Nai được hỗ trợ nhà ở với kinh phí lên đến 66 tỷ VNĐ.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực Tây Nguyên đạt 49%.",
+      "Nhân viên ngành dệt may tại Cần Thơ được hỗ trợ nhà ở với kinh phí lên đến 87 tỷ VNĐ.",
+      "Lượng tiêu thụ điện bình quân giảm còn 223 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Ban giám đốc tại chi nhánh miền Tây có 38% là thành viên độc lập.",
+      "Nhân viên ngành dệt may tại Hải Phòng được hỗ trợ nhà ở với kinh phí lên đến 48 tỷ VNĐ.",
+      "Tại vùng Tây Nguyên, doanh nghiệp đầu tư 77 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Tại vùng miền Trung, doanh nghiệp đầu tư 16 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Tổ chức 37 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2021.",
+      "Lượng tiêu thụ điện bình quân giảm còn 151 kWh/người/tháng trong toàn hệ thống logistics."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành dệt may. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Nhà máy tại Đồng Nai đã giảm lượng phát thải CO₂ xuống còn 8496 tấn/năm.",
+      "Tổ chức 29 buổi đối thoại cộng đồng tại huyện Hải Phòng trong năm 2023.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Trung đạt 24%.",
+      "Tại vùng Tây Nguyên, doanh nghiệp đầu tư 10 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Bắc đạt 15%.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Bắc đạt 58%.",
+      "Ban giám đốc tại chi nhánh miền Trung có 80% là thành viên độc lập.",
+      "Nhân viên ngành dệt may tại Bình Dương được hỗ trợ nhà ở với kinh phí lên đến 100 tỷ VNĐ.",
+      "Nhân viên ngành dệt may tại Cần Thơ được hỗ trợ nhà ở với kinh phí lên đến 15 tỷ VNĐ.",
+      "Nhà máy tại Đồng Nai đã giảm lượng phát thải CO₂ xuống còn 4978 tấn/năm."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành dệt may. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Nhà máy tại Đồng Nai đã giảm lượng phát thải CO₂ xuống còn 4710 tấn/năm.",
+      "Tổ chức 49 buổi đối thoại cộng đồng tại huyện Hải Phòng trong năm 2023.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Quảng Ngãi, giúp tái sử dụng 63% lượng nước thải.",
+      "Tổ chức 25 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2023.",
+      "Ban giám đốc tại chi nhánh miền Trung có 36% là thành viên độc lập.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực Tây Nguyên đạt 43%.",
+      "Tổ chức 5 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2022.",
+      "Ban giám đốc tại chi nhánh miền Trung có 27% là thành viên độc lập.",
+      "Ban giám đốc tại chi nhánh miền Tây có 78% là thành viên độc lập.",
+      "Lượng tiêu thụ điện bình quân giảm còn 241 kWh/người/tháng trong toàn hệ thống logistics."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành tài chính. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tổ chức 19 buổi đối thoại cộng đồng tại huyện Bình Dương trong năm 2024.",
+      "Tại vùng miền Trung, doanh nghiệp đầu tư 77 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Tại vùng Tây Nguyên, doanh nghiệp đầu tư 31 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Nhà máy tại Đồng Nai đã giảm lượng phát thải CO₂ xuống còn 4838 tấn/năm.",
+      "Ban giám đốc tại chi nhánh Tây Nguyên có 20% là thành viên độc lập.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Đồng Nai, giúp tái sử dụng 56% lượng nước thải.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Hải Phòng, giúp tái sử dụng 18% lượng nước thải.",
+      "Tổ chức 32 buổi đối thoại cộng đồng tại huyện Hải Phòng trong năm 2021.",
+      "Dự án nông nghiệp hữu cơ giúp giảm 67% lượng thuốc bảo vệ thực vật ra môi trường.",
+      "Nhà máy tại Đồng Nai đã giảm lượng phát thải CO₂ xuống còn 9449 tấn/năm."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành dệt may. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Ban giám đốc tại chi nhánh miền Trung có 92% là thành viên độc lập.",
+      "Dự án nông nghiệp hữu cơ giúp giảm 78% lượng thuốc bảo vệ thực vật ra môi trường.",
+      "Tại vùng Tây Nguyên, doanh nghiệp đầu tư 68 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Tổ chức 7 buổi đối thoại cộng đồng tại huyện Đồng Nai trong năm 2022.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Bình Dương, giúp tái sử dụng 57% lượng nước thải.",
+      "Lượng tiêu thụ điện bình quân giảm còn 278 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Tại vùng miền Bắc, doanh nghiệp đầu tư 66 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Bình Dương, giúp tái sử dụng 31% lượng nước thải.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực TP.HCM đạt 75%.",
+      "Tại vùng Tây Nguyên, doanh nghiệp đầu tư 27 tỷ VNĐ vào hệ thống điện mặt trời áp mái."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành nông nghiệp. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực Tây Nguyên đạt 68%.",
+      "Nhân viên ngành dệt may tại Đồng Nai được hỗ trợ nhà ở với kinh phí lên đến 16 tỷ VNĐ.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực Tây Nguyên đạt 62%.",
+      "Ban giám đốc tại chi nhánh miền Trung có 26% là thành viên độc lập.",
+      "Nhà máy tại Hải Phòng đã giảm lượng phát thải CO₂ xuống còn 9283 tấn/năm.",
+      "Chương trình ‘An toàn cho mọi người’ đã giảm 28% tai nạn lao động tại các công trường.",
+      "Nhà máy tại Hải Phòng đã giảm lượng phát thải CO₂ xuống còn 8465 tấn/năm.",
+      "Tổ chức 34 buổi đối thoại cộng đồng tại huyện Cần Thơ trong năm 2024.",
+      "Tổ chức 32 buổi đối thoại cộng đồng tại huyện Đồng Nai trong năm 2020.",
+      "Tổ chức 15 buổi đối thoại cộng đồng tại huyện Đồng Nai trong năm 2023."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành sản xuất ô tô. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tại vùng TP.HCM, doanh nghiệp đầu tư 88 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Hải Phòng, giúp tái sử dụng 79% lượng nước thải.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực TP.HCM đạt 25%.",
+      "Lượng tiêu thụ điện bình quân giảm còn 141 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Nhà máy tại Cần Thơ đã giảm lượng phát thải CO₂ xuống còn 3452 tấn/năm.",
+      "Nhà máy tại Bình Dương đã giảm lượng phát thải CO₂ xuống còn 3329 tấn/năm.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực Tây Nguyên đạt 40%.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Bình Dương, giúp tái sử dụng 39% lượng nước thải.",
+      "Tổ chức 35 buổi đối thoại cộng đồng tại huyện Hải Phòng trong năm 2021.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Quảng Ngãi, giúp tái sử dụng 38% lượng nước thải."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành tài chính. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Ban giám đốc tại chi nhánh TP.HCM có 92% là thành viên độc lập.",
+      "Nhà máy tại Quảng Ngãi đã giảm lượng phát thải CO₂ xuống còn 6060 tấn/năm.",
+      "Lượng tiêu thụ điện bình quân giảm còn 248 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Tổ chức 8 buổi đối thoại cộng đồng tại huyện Cần Thơ trong năm 2024.",
+      "Nhà máy tại Quảng Ngãi đã giảm lượng phát thải CO₂ xuống còn 1038 tấn/năm.",
+      "Tỷ lệ nhân viên nữ tham gia chương trình đào tạo kỹ thuật tại khu vực miền Tây đạt 53%.",
+      "Lượng tiêu thụ điện bình quân giảm còn 199 kWh/người/tháng trong toàn hệ thống logistics.",
+      "Ban giám đốc tại chi nhánh miền Tây có 18% là thành viên độc lập.",
+      "Chúng tôi triển khai hệ thống tuần hoàn nước tại khu công nghiệp Quảng Ngãi, giúp tái sử dụng 64% lượng nước thải.",
+      "Nhân viên ngành dệt may tại Quảng Ngãi được hỗ trợ nhà ở với kinh phí lên đến 72 tỷ VNĐ."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty trong ngành thực phẩm. Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Nhà máy tại Hải Phòng đã giảm lượng phát thải CO₂ xuống còn 1154 tấn/năm.",
+      "Dự án nông nghiệp hữu cơ giúp giảm 92% lượng thuốc bảo vệ thực vật ra môi trường.",
+      "Tổ chức 41 buổi đối thoại cộng đồng tại huyện Hải Phòng trong năm 2024.",
+      "Tại vùng miền Trung, doanh nghiệp đầu tư 81 tỷ VNĐ vào hệ thống điện mặt trời áp mái.",
+      "Nhân viên ngành dệt may tại Hải Phòng được hỗ trợ nhà ở với kinh phí lên đến 51 tỷ VNĐ.",
+      "Tổ chức 8 buổi đối thoại cộng đồng tại huyện Hải Phòng trong năm 2021.",
+      "Nhà máy tại Quảng Ngãi đã giảm lượng phát thải CO₂ xuống còn 8017 tấn/năm.",
+      "Tổ chức 46 buổi đối thoại cộng đồng tại huyện Đồng Nai trong năm 2023.",
+      "Nhân viên ngành dệt may tại Bình Dương được hỗ trợ nhà ở với kinh phí lên đến 26 tỷ VNĐ.",
+      "Tổ chức 40 buổi đối thoại cộng đồng tại huyện Hải Phòng trong năm 2024."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  }
+]

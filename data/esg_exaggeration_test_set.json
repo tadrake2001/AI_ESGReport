@@ -1,0 +1,2524 @@
+[
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1001). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Tác động xã hội của chúng tôi là chưa từng có.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Tác động xã hội của chúng tôi là chưa từng có.",
+          "reason": "Câu này cảm tính và không định lượng."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1002). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+          "reason": "Tuyên bố tuyệt đối về cảm nhận là phóng đại."
+        },
+        {
+          "sentence": "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+          "reason": "Từ 'hoàn hảo 100%' là phóng đại, không thực tế."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1003). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1004). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1005). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+          "reason": "Tuyên bố tuyệt đối về cảm nhận là phóng đại."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1006). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tác động xã hội của chúng tôi là chưa từng có.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững.",
+          "reason": "Tuyên bố mang tính cảm xúc, không có số liệu."
+        },
+        {
+          "sentence": "Tác động xã hội của chúng tôi là chưa từng có.",
+          "reason": "Câu này cảm tính và không định lượng."
+        },
+        {
+          "sentence": "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+          "reason": "Không thể chứng minh một tổ chức đã giải quyết triệt để các vấn đề toàn cầu."
+        },
+        {
+          "sentence": "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+          "reason": "Tuyên bố tuyệt đối về cảm nhận là phóng đại."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1007). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1008). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+      "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+          "reason": "Tuyên bố mang tính tuyệt đối và không có cơ sở kiểm chứng."
+        },
+        {
+          "sentence": "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+          "reason": "Từ 'hoàn hảo 100%' là phóng đại, không thực tế."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1009). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tác động xã hội của chúng tôi là chưa từng có.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Tác động xã hội của chúng tôi là chưa từng có.",
+          "reason": "Câu này cảm tính và không định lượng."
+        },
+        {
+          "sentence": "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+          "reason": "Từ 'hoàn hảo 100%' là phóng đại, không thực tế."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1010). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1011). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+          "reason": "Từ 'hoàn hảo 100%' là phóng đại, không thực tế."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1012). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+      "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+      "Tác động xã hội của chúng tôi là chưa từng có.",
+      "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+          "reason": "Tuyên bố tuyệt đối về cảm nhận là phóng đại."
+        },
+        {
+          "sentence": "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+          "reason": "Tuyên bố mang tính tuyệt đối và không có cơ sở kiểm chứng."
+        },
+        {
+          "sentence": "Tác động xã hội của chúng tôi là chưa từng có.",
+          "reason": "Câu này cảm tính và không định lượng."
+        },
+        {
+          "sentence": "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+          "reason": "Không thể chứng minh một tổ chức đã giải quyết triệt để các vấn đề toàn cầu."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1013). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+      "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+          "reason": "Phóng đại vai trò và ảnh hưởng của công ty."
+        },
+        {
+          "sentence": "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+          "reason": "Không có cách xác minh khách quan mức 'tiên tiến nhất'."
+        },
+        {
+          "sentence": "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+          "reason": "Từ 'hoàn hảo 100%' là phóng đại, không thực tế."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1014). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+      "Tác động xã hội của chúng tôi là chưa từng có."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+          "reason": "Không có cách xác minh khách quan mức 'tiên tiến nhất'."
+        },
+        {
+          "sentence": "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+          "reason": "Tuyên bố mang tính tuyệt đối và không có cơ sở kiểm chứng."
+        },
+        {
+          "sentence": "Tác động xã hội của chúng tôi là chưa từng có.",
+          "reason": "Câu này cảm tính và không định lượng."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1015). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+          "reason": "Không có cách xác minh khách quan mức 'tiên tiến nhất'."
+        },
+        {
+          "sentence": "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+          "reason": "Tuyên bố mang tính tuyệt đối và không có cơ sở kiểm chứng."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1016). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1017). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Tác động xã hội của chúng tôi là chưa từng có.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Tác động xã hội của chúng tôi là chưa từng có.",
+          "reason": "Câu này cảm tính và không định lượng."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1018). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1019). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Dịch vụ của chúng tôi luôn hoàn hảo 100%."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+          "reason": "Không có cách xác minh khách quan mức 'tiên tiến nhất'."
+        },
+        {
+          "sentence": "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+          "reason": "Không thể chứng minh một tổ chức đã giải quyết triệt để các vấn đề toàn cầu."
+        },
+        {
+          "sentence": "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+          "reason": "Từ 'hoàn hảo 100%' là phóng đại, không thực tế."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1020). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Tác động xã hội của chúng tôi là chưa từng có.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Tác động xã hội của chúng tôi là chưa từng có.",
+          "reason": "Câu này cảm tính và không định lượng."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1021). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1022). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1023). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+          "reason": "Không thể chứng minh một tổ chức đã giải quyết triệt để các vấn đề toàn cầu."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1024). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững.",
+          "reason": "Tuyên bố mang tính cảm xúc, không có số liệu."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1025). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tác động xã hội của chúng tôi là chưa từng có.",
+      "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+      "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+          "reason": "Phóng đại vai trò và ảnh hưởng của công ty."
+        },
+        {
+          "sentence": "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+          "reason": "Tuyên bố tuyệt đối về cảm nhận là phóng đại."
+        },
+        {
+          "sentence": "Tác động xã hội của chúng tôi là chưa từng có.",
+          "reason": "Câu này cảm tính và không định lượng."
+        },
+        {
+          "sentence": "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+          "reason": "Không thể chứng minh một tổ chức đã giải quyết triệt để các vấn đề toàn cầu."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1026). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1027). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+      "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+          "reason": "Tuyên bố tuyệt đối về cảm nhận là phóng đại."
+        },
+        {
+          "sentence": "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+          "reason": "Không thể chứng minh một tổ chức đã giải quyết triệt để các vấn đề toàn cầu."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1028). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+          "reason": "Từ 'hoàn hảo 100%' là phóng đại, không thực tế."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1029). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+      "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+          "reason": "Tuyên bố mang tính tuyệt đối và không có cơ sở kiểm chứng."
+        },
+        {
+          "sentence": "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+          "reason": "Tuyên bố tuyệt đối về cảm nhận là phóng đại."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1030). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững.",
+          "reason": "Tuyên bố mang tính cảm xúc, không có số liệu."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1031). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+          "reason": "Tuyên bố mang tính tuyệt đối và không có cơ sở kiểm chứng."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1032). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+          "reason": "Từ 'hoàn hảo 100%' là phóng đại, không thực tế."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1033). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1034). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1035). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+      "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+      "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+          "reason": "Không thể chứng minh một tổ chức đã giải quyết triệt để các vấn đề toàn cầu."
+        },
+        {
+          "sentence": "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+          "reason": "Không có cách xác minh khách quan mức 'tiên tiến nhất'."
+        },
+        {
+          "sentence": "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+          "reason": "Tuyên bố tuyệt đối về cảm nhận là phóng đại."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1036). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+          "reason": "Không có cách xác minh khách quan mức 'tiên tiến nhất'."
+        },
+        {
+          "sentence": "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+          "reason": "Phóng đại vai trò và ảnh hưởng của công ty."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1037). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững.",
+          "reason": "Tuyên bố mang tính cảm xúc, không có số liệu."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1038). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1039). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+          "reason": "Tuyên bố mang tính tuyệt đối và không có cơ sở kiểm chứng."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1040). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+          "reason": "Không có cách xác minh khách quan mức 'tiên tiến nhất'."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1041). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+          "reason": "Tuyên bố mang tính tuyệt đối và không có cơ sở kiểm chứng."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1042). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Tác động xã hội của chúng tôi là chưa từng có.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+      "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững.",
+          "reason": "Tuyên bố mang tính cảm xúc, không có số liệu."
+        },
+        {
+          "sentence": "Tác động xã hội của chúng tôi là chưa từng có.",
+          "reason": "Câu này cảm tính và không định lượng."
+        },
+        {
+          "sentence": "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+          "reason": "Phóng đại vai trò và ảnh hưởng của công ty."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1043). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tác động xã hội của chúng tôi là chưa từng có.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Tác động xã hội của chúng tôi là chưa từng có.",
+          "reason": "Câu này cảm tính và không định lượng."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1044). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+          "reason": "Từ 'hoàn hảo 100%' là phóng đại, không thực tế."
+        },
+        {
+          "sentence": "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+          "reason": "Tuyên bố mang tính tuyệt đối và không có cơ sở kiểm chứng."
+        },
+        {
+          "sentence": "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+          "reason": "Không thể chứng minh một tổ chức đã giải quyết triệt để các vấn đề toàn cầu."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1045). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+          "reason": "Phóng đại vai trò và ảnh hưởng của công ty."
+        },
+        {
+          "sentence": "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+          "reason": "Không có cách xác minh khách quan mức 'tiên tiến nhất'."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1046). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1047). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+          "reason": "Từ 'hoàn hảo 100%' là phóng đại, không thực tế."
+        },
+        {
+          "sentence": "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững.",
+          "reason": "Tuyên bố mang tính cảm xúc, không có số liệu."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1048). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+          "reason": "Tuyên bố mang tính tuyệt đối và không có cơ sở kiểm chứng."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1049). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+          "reason": "Phóng đại vai trò và ảnh hưởng của công ty."
+        },
+        {
+          "sentence": "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+          "reason": "Tuyên bố mang tính tuyệt đối và không có cơ sở kiểm chứng."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1050). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+          "reason": "Từ 'hoàn hảo 100%' là phóng đại, không thực tế."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1051). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tác động xã hội của chúng tôi là chưa từng có.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Tác động xã hội của chúng tôi là chưa từng có.",
+          "reason": "Câu này cảm tính và không định lượng."
+        },
+        {
+          "sentence": "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+          "reason": "Không thể chứng minh một tổ chức đã giải quyết triệt để các vấn đề toàn cầu."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1052). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1053). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1054). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Tác động xã hội của chúng tôi là chưa từng có.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Tác động xã hội của chúng tôi là chưa từng có.",
+          "reason": "Câu này cảm tính và không định lượng."
+        },
+        {
+          "sentence": "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+          "reason": "Phóng đại vai trò và ảnh hưởng của công ty."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1055). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+          "reason": "Phóng đại vai trò và ảnh hưởng của công ty."
+        },
+        {
+          "sentence": "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+          "reason": "Tuyên bố mang tính tuyệt đối và không có cơ sở kiểm chứng."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1056). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1057). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1058). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+          "reason": "Không có cách xác minh khách quan mức 'tiên tiến nhất'."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1059). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1060). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững.",
+          "reason": "Tuyên bố mang tính cảm xúc, không có số liệu."
+        },
+        {
+          "sentence": "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+          "reason": "Tuyên bố tuyệt đối về cảm nhận là phóng đại."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1061). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tác động xã hội của chúng tôi là chưa từng có."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+          "reason": "Từ 'hoàn hảo 100%' là phóng đại, không thực tế."
+        },
+        {
+          "sentence": "Tác động xã hội của chúng tôi là chưa từng có.",
+          "reason": "Câu này cảm tính và không định lượng."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1062). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1063). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+      "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+          "reason": "Phóng đại vai trò và ảnh hưởng của công ty."
+        },
+        {
+          "sentence": "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+          "reason": "Không thể chứng minh một tổ chức đã giải quyết triệt để các vấn đề toàn cầu."
+        },
+        {
+          "sentence": "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+          "reason": "Không có cách xác minh khách quan mức 'tiên tiến nhất'."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1064). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+      "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+          "reason": "Không thể chứng minh một tổ chức đã giải quyết triệt để các vấn đề toàn cầu."
+        },
+        {
+          "sentence": "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+          "reason": "Không có cách xác minh khách quan mức 'tiên tiến nhất'."
+        },
+        {
+          "sentence": "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững.",
+          "reason": "Tuyên bố mang tính cảm xúc, không có số liệu."
+        },
+        {
+          "sentence": "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+          "reason": "Tuyên bố mang tính tuyệt đối và không có cơ sở kiểm chứng."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1065). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1066). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1067). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+      "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+          "reason": "Không có cách xác minh khách quan mức 'tiên tiến nhất'."
+        },
+        {
+          "sentence": "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+          "reason": "Phóng đại vai trò và ảnh hưởng của công ty."
+        },
+        {
+          "sentence": "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+          "reason": "Tuyên bố tuyệt đối về cảm nhận là phóng đại."
+        },
+        {
+          "sentence": "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+          "reason": "Tuyên bố mang tính tuyệt đối và không có cơ sở kiểm chứng."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1068). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+          "reason": "Không có cách xác minh khách quan mức 'tiên tiến nhất'."
+        },
+        {
+          "sentence": "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+          "reason": "Tuyên bố tuyệt đối về cảm nhận là phóng đại."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1069). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+          "reason": "Không thể chứng minh một tổ chức đã giải quyết triệt để các vấn đề toàn cầu."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1070). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+          "reason": "Tuyên bố tuyệt đối về cảm nhận là phóng đại."
+        },
+        {
+          "sentence": "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+          "reason": "Không thể chứng minh một tổ chức đã giải quyết triệt để các vấn đề toàn cầu."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1071). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+          "reason": "Phóng đại vai trò và ảnh hưởng của công ty."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1072). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+          "reason": "Không có cách xác minh khách quan mức 'tiên tiến nhất'."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1073). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+          "reason": "Phóng đại vai trò và ảnh hưởng của công ty."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1074). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+          "reason": "Tuyên bố tuyệt đối về cảm nhận là phóng đại."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1075). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+          "reason": "Không thể chứng minh một tổ chức đã giải quyết triệt để các vấn đề toàn cầu."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1076). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+          "reason": "Từ 'hoàn hảo 100%' là phóng đại, không thực tế."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1077). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Dịch vụ của chúng tôi luôn hoàn hảo 100%."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+          "reason": "Từ 'hoàn hảo 100%' là phóng đại, không thực tế."
+        },
+        {
+          "sentence": "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+          "reason": "Phóng đại vai trò và ảnh hưởng của công ty."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1078). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững.",
+          "reason": "Tuyên bố mang tính cảm xúc, không có số liệu."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1079). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Công nghệ của chúng tôi là tiên tiến nhất hành tinh."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+          "reason": "Không có cách xác minh khách quan mức 'tiên tiến nhất'."
+        },
+        {
+          "sentence": "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+          "reason": "Tuyên bố tuyệt đối về cảm nhận là phóng đại."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1080). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+      "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+          "reason": "Tuyên bố tuyệt đối về cảm nhận là phóng đại."
+        },
+        {
+          "sentence": "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+          "reason": "Tuyên bố mang tính tuyệt đối và không có cơ sở kiểm chứng."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1081). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững.",
+          "reason": "Tuyên bố mang tính cảm xúc, không có số liệu."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1082). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững.",
+      "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+      "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+          "reason": "Tuyên bố tuyệt đối về cảm nhận là phóng đại."
+        },
+        {
+          "sentence": "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững.",
+          "reason": "Tuyên bố mang tính cảm xúc, không có số liệu."
+        },
+        {
+          "sentence": "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+          "reason": "Tuyên bố mang tính tuyệt đối và không có cơ sở kiểm chứng."
+        },
+        {
+          "sentence": "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+          "reason": "Không thể chứng minh một tổ chức đã giải quyết triệt để các vấn đề toàn cầu."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1083). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Tác động xã hội của chúng tôi là chưa từng có.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+      "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+          "reason": "Phóng đại vai trò và ảnh hưởng của công ty."
+        },
+        {
+          "sentence": "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+          "reason": "Không thể chứng minh một tổ chức đã giải quyết triệt để các vấn đề toàn cầu."
+        },
+        {
+          "sentence": "Tác động xã hội của chúng tôi là chưa từng có.",
+          "reason": "Câu này cảm tính và không định lượng."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1084). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+          "reason": "Từ 'hoàn hảo 100%' là phóng đại, không thực tế."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1085). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+      "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+          "reason": "Tuyên bố tuyệt đối về cảm nhận là phóng đại."
+        },
+        {
+          "sentence": "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+          "reason": "Phóng đại vai trò và ảnh hưởng của công ty."
+        },
+        {
+          "sentence": "Chúng tôi đã giải quyết hoàn toàn các vấn đề môi trường.",
+          "reason": "Không thể chứng minh một tổ chức đã giải quyết triệt để các vấn đề toàn cầu."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1086). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+          "reason": "Tuyên bố mang tính tuyệt đối và không có cơ sở kiểm chứng."
+        },
+        {
+          "sentence": "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+          "reason": "Phóng đại vai trò và ảnh hưởng của công ty."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1087). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1088). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1089). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+          "reason": "Phóng đại vai trò và ảnh hưởng của công ty."
+        },
+        {
+          "sentence": "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững.",
+          "reason": "Tuyên bố mang tính cảm xúc, không có số liệu."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1090). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+      "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+          "reason": "Tuyên bố tuyệt đối về cảm nhận là phóng đại."
+        },
+        {
+          "sentence": "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+          "reason": "Phóng đại vai trò và ảnh hưởng của công ty."
+        },
+        {
+          "sentence": "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+          "reason": "Không có cách xác minh khách quan mức 'tiên tiến nhất'."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1091). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1092). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững.",
+          "reason": "Tuyên bố mang tính cảm xúc, không có số liệu."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1093). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Tác động xã hội của chúng tôi là chưa từng có.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Dịch vụ của chúng tôi luôn hoàn hảo 100%."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+          "reason": "Từ 'hoàn hảo 100%' là phóng đại, không thực tế."
+        },
+        {
+          "sentence": "Tác động xã hội của chúng tôi là chưa từng có.",
+          "reason": "Câu này cảm tính và không định lượng."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1094). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1095). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Dịch vụ của chúng tôi luôn hoàn hảo 100%.",
+          "reason": "Từ 'hoàn hảo 100%' là phóng đại, không thực tế."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1096). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường."
+    ],
+    "output": {
+      "label": "không phóng đại",
+      "sentences": []
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1097). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Mọi khách hàng đều hài lòng tuyệt đối với sản phẩm của chúng tôi.",
+          "reason": "Tuyên bố tuyệt đối về cảm nhận là phóng đại."
+        },
+        {
+          "sentence": "Chúng tôi đã làm nên kỳ tích chưa từng thấy trong phát triển bền vững.",
+          "reason": "Tuyên bố mang tính cảm xúc, không có số liệu."
+        },
+        {
+          "sentence": "Công nghệ của chúng tôi là tiên tiến nhất hành tinh.",
+          "reason": "Không có cách xác minh khách quan mức 'tiên tiến nhất'."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1098). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+          "reason": "Phóng đại vai trò và ảnh hưởng của công ty."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1099). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+      "Chúng tôi tuân thủ đầy đủ các quy chuẩn GRI trong báo cáo phát thải.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Nhờ có chúng tôi, ngành công nghiệp đã được cách mạng hóa.",
+          "reason": "Phóng đại vai trò và ảnh hưởng của công ty."
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đoạn văn sau được trích từ báo cáo ESG của một công ty (mẫu 1100). Hãy xác định các câu có dấu hiệu phóng đại và giải thích lý do.",
+    "input": [
+      "Chúng tôi hợp tác với tổ chức quốc tế để giám sát chuỗi cung ứng.",
+      "Tỷ lệ lao động nữ chiếm 45% trong tổng nhân sự toàn công ty.",
+      "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+      "Tỷ lệ tái chế chất thải đạt 60% trong năm qua.",
+      "Tỷ lệ tiêu thụ nước giảm 15% so với cùng kỳ năm trước.",
+      "Các nhà máy đạt chứng chỉ ISO 14001 về môi trường.",
+      "Chúng tôi công bố báo cáo ESG định kỳ hàng năm.",
+      "Chúng tôi đầu tư 50 tỷ đồng mỗi năm vào sáng kiến môi trường.",
+      "Chúng tôi áp dụng cơ chế thưởng cho sáng kiến tiết kiệm năng lượng.",
+      "Hệ thống năng lượng mặt trời tại nhà máy cung cấp 30% nhu cầu điện năng."
+    ],
+    "output": {
+      "label": "phóng đại",
+      "sentences": [
+        {
+          "sentence": "Chúng tôi là công ty hàng đầu thế giới trong mọi lĩnh vực.",
+          "reason": "Tuyên bố mang tính tuyệt đối và không có cơ sở kiểm chứng."
+        }
+      ]
+    }
+  }
+]
